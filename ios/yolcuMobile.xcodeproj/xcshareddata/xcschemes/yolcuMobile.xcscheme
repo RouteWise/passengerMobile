@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "yolcuMobile.app"
-               BlueprintName = "yolcuMobile"
-               ReferencedContainer = "container:yolcuMobile.xcodeproj">
+               BuildableName = "RouteWise.app"
+               BlueprintName = "RouteWise"
+               ReferencedContainer = "container:RouteWise.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "yolcuMobileTests.xctest"
-               BlueprintName = "yolcuMobileTests"
-               ReferencedContainer = "container:yolcuMobile.xcodeproj">
+               BuildableName = "RouteWiseTests.xctest"
+               BlueprintName = "RouteWiseTests"
+               ReferencedContainer = "container:RouteWise.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "yolcuMobile.app"
-            BlueprintName = "yolcuMobile"
-            ReferencedContainer = "container:yolcuMobile.xcodeproj">
+            BuildableName = "RouteWise.app"
+            BlueprintName = "RouteWise"
+            ReferencedContainer = "container:RouteWise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "yolcuMobile.app"
-            BlueprintName = "yolcuMobile"
-            ReferencedContainer = "container:yolcuMobile.xcodeproj">
+            BuildableName = "RouteWise.app"
+            BlueprintName = "RouteWise"
+            ReferencedContainer = "container:RouteWise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

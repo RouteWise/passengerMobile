@@ -6,12 +6,13 @@ import 'react-native';
 import React from 'react';
 import App from '../App';
 
-// Note: import explicitly to use the types shiped with jest.
-import {it} from '@jest/globals';
+import {it, expect} from '@jest/globals';
+import {fireEvent, screen, render} from '@testing-library/react-native';
 
-// Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-it('renders correctly', () => {
-  renderer.create(<App />);
+it('Notification Success Send', () => {
+  const tree = render(<App />).toJSON();
+  const text = screen.getByTestId('head');
+  fireEvent.press(screen.getByTestId('notificationButton'));
 });
