@@ -1,6 +1,8 @@
 export default interface ButtonProps {
     title: string;
-    type?: 'whiteBase' | 'blueBase';
+    colorBase?: 'whiteBase' | 'blueBase';
     onPress?: () => void;
     fontFamily?: string;
+    disabled?: boolean;
+    type: 'primary' | 'secondary' | 'tertiary';
 }

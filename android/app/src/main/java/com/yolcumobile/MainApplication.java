@@ -11,6 +11,7 @@ import com.facebook.soloader.SoLoader;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
 import java.util.List;
 
