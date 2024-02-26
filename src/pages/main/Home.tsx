@@ -22,7 +22,7 @@ const Home = () => {
         contentContainerStyle={styles.contentContainer}
         style={styles.scrollContainer}>
         <Card theme="grayBase">
-          <Text style={{color: 'black', fontFamily: 'Montserrat-Bold'}}>
+          <Text style={{color: COLORS.black, fontFamily: 'Montserrat-Bold'}}>
             Yaklaşan Servisler
           </Text>
         </Card>
