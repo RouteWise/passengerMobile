@@ -7,6 +7,8 @@ interface TitleProps {
   type?: 'small' | 'medium' | 'large';
 }
 
+//NOT: PureComponent kullanmamızın sebebi, componentin herhangi bir state'i olmadığı için herhangi bir değişiklikte render edilmesine gerek yok.
+
 export default class Title extends PureComponent<TitleProps> {
   render() {
     return (
